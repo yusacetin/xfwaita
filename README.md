@@ -4,7 +4,7 @@ This is an Adwaita "port" for XFWM4 made with screenshots from Gnome application
 
 ### Installation
 
-Run `make install` in the project directory, then select 'xfwaita' from the .
+Run `make install` in the project directory, then select 'xfwaita' from XFCE window manager settings under the style tab.
 
 ### Uninstallation
 
