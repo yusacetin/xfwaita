@@ -1,6 +1,6 @@
 ## Adwaita-dark for XFWM4
 
-This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applications.
+This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applications. View on xfce-look.org: https://www.xfce-look.org/p/2031526/
 
 ### Screenshot
 
