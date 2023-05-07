@@ -4,15 +4,19 @@ This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applic
 
 ### Screenshot
 
-![xfwaita](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot.png)
+![Xfwaita-dark](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot_2.png)
 
 ### Installation
 
-Run `make install` in the project directory, then select 'xfwaita' from XFCE window manager settings under the style tab.
+Run `install.sh` in the project directory, then select 'Xfwaita-dark' from XFCE window manager settings under the style tab.
 
 ### Uninstallation
 
-Run `make uninstall` in the project directory.
+Run `uninstall.sh` in the project directory. Don't forget to select a different theme from settings before you log out.
+
+### Off-centered title workaround
+
+To work around the slightly off-centered window title, place an equal number of window buttons on the left and right sides of the title. For example, if you have the close, maximize, and hide buttons on the right side, you can put the menu, stick, and shade buttons to the left side from XFCE window manager settings. Or try a fork of XFWM4 that supports full-width title centering.
 
 ### License
 

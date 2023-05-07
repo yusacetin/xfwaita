@@ -1,4 +1,4 @@
 active_text_color=#ECECEC
-active_text_shadow_color=#202020
 inactive_text_color=#909090
-inactive_text_shadow_color=#202020
+button_spacing=8
+button_offset=7
