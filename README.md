@@ -1,6 +1,10 @@
-## Experimental - Adwaita Styled Theme for XFWM4
+## Adwaita-dark for XFWM4
 
-This is an Adwaita "port" for XFWM4 made with screenshots from Gnome applications. It has a few issues the most notable of which is that the top corners look awkward above dark backgrounds.
+This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applications.
+
+### Screenshot
+
+![xfwaita](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot.png)
 
 ### Installation
 
