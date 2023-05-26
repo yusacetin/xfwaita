@@ -8,7 +8,7 @@ This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applic
 
 ### Installation
 
-Run `install.sh` in the project directory, then select 'Xfwaita-dark' from XFCE window manager settings under the style tab.
+Run `build.sh` to generate the build files followed by `install.sh` to copy them to your local themes folder, then select 'Xfwaita-dark' from XFCE window manager settings under the style tab.
 
 ### Uninstallation
 
