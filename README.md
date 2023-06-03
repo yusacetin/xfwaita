@@ -6,9 +6,9 @@ This is an Adwaita-dark "port" for XFWM4 made with screenshots from Gnome applic
 
 ![Xfwaita-dark](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot_2.png)
 
-### Installation
+### Build and Installation
 
-Run `build.sh` to generate the build files followed by `install.sh` to copy them to your local themes folder, then select 'Xfwaita-dark' from XFCE window manager settings under the style tab.
+Building requires ImageMagick and Python. For either the large or the slim variant, navigate to the corresponding directory and run `build.sh` to generate the build files followed by `install.sh` to copy them to your local themes folder, then select 'Xfwaita-dark' for the large version or 'Xfwaita-slim-dark' for the slim version from XFCE window manager settings under the style tab.
 
 ### Uninstallation
 
