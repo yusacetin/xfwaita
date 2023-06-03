@@ -200,8 +200,7 @@ rm build/title-active.xpm
 rm build/title-inactive.xpm
 
 # Copy constants
-cp ../large/consts/*.xpm build
-cp themerc build
+cp consts/* build
 
 # Get rid of temp folder
 if [ -d ./temp ]; then rm -rf ./temp; fi;
