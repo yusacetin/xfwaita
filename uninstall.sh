@@ -1,25 +1,45 @@
 uninstall_dark_slim(){
-    cd dark_slim
-    ./uninstall.sh
-    cd ..
+    if [ -d "dark_slim" ]
+    then
+        cd dark_slim
+        ./uninstall.sh
+        cd ..
+    else
+        echo "Failed to uninstall dark_slim. Make sure you are in the correct directory."
+    fi
 }
 
 uninstall_dark_large(){
-    cd dark_large
-    ./uninstall.sh
-    cd ..
+    if [ -d "dark_large" ]
+    then
+        cd dark_large
+        ./uninstall.sh
+        cd ..
+    else
+        echo "Failed to uninstall dark_large. Make sure you are in the correct directory."
+    fi
 }
 
 uninstall_light_slim(){
-    cd light_slim
-    ./uninstall.sh
-    cd ..
+    if [ -d "light_slim" ]
+    then
+        cd light_slim
+        ./uninstall.sh
+        cd ..
+    else
+        echo "Failed to uninstall light_slim. Make sure you are in the correct directory."
+    fi
 }
 
 uninstall_light_large(){
-    cd light_large
-    ./uninstall.sh
-    cd ..
+    if [ -d "light_large" ]
+    then
+        cd light_large
+        ./uninstall.sh
+        cd ..
+    else
+        echo "Failed to uninstall light_large. Make sure you are in the correct directory."
+    fi
 }
 
 uninstall_all(){

@@ -15,11 +15,11 @@ cp src/title_inactive.png temp/title-inactive.png
 
 # Margin variables
 HMAR_BUTTON_FG=11
-VMAR_BUTTON_FG=14
-VMAR_BUTTON_FG_INACTIVE=14
+VMAR_BUTTON_FG=15
+VMAR_BUTTON_FG_INACTIVE=15
 
 HMAR_BUTTON_BG=0
-VMAR_BUTTON_BG=5
+VMAR_BUTTON_BG=4
 
 # Create active buttons
 convert \
@@ -42,20 +42,20 @@ convert \
 -page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/maximize_toggled_button_active.png \
 -background none -layers merge +repage temp/maximize-toggled-active.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/menu-active.png
+convert \
+-page +0+0 src/title_active.png \
+-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/menu-active.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/stick-active.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/stick-active.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/shade-active.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/shade-active.png
 
 # Create inactive buttons
 convert \
@@ -78,20 +78,20 @@ convert \
 -page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG_INACTIVE} ../common_src/light/maximize_toggled_button_inactive.png \
 -background none -layers merge +repage temp/maximize-toggled-inactive.png
 
-#convert \
-#-page +0+0 src/title_inactive.png \
-#-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_inactive.png \
-#-background none -layers merge +repage temp/menu-inactive.png
+convert \
+-page +0+0 src/title_inactive.png \
+-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_inactive.png \
+-background none -layers merge +repage temp/menu-inactive.png
 
-#convert \
-#-page +0+0 src/title_inactive.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_inactive.png \
-#-background none -layers merge +repage temp/stick-inactive.png
+convert \
+-page +0+0 src/title_inactive.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_inactive.png \
+-background none -layers merge +repage temp/stick-inactive.png
 
-#convert \
-#-page +0+0 src/title_inactive.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_inactive.png \
-#-background none -layers merge +repage temp/shade-inactive.png
+convert \
+-page +0+0 src/title_inactive.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_inactive.png \
+-background none -layers merge +repage temp/shade-inactive.png
 
 # Create hover buttons
 convert \
@@ -118,23 +118,23 @@ convert \
 -page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/maximize_toggled_button_active.png \
 -background none -layers merge +repage temp/maximize-toggled-prelight.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
-#-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/menu-prelight.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
+-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/menu-prelight.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/stick-prelight.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/stick-prelight.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/shade-prelight.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_hover_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/shade-prelight.png
 
 # Create pressed buttons
 convert \
@@ -161,23 +161,23 @@ convert \
 -page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/maximize_toggled_button_active.png \
 -background none -layers merge +repage temp/maximize-toggled-pressed.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
-#-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/menu-pressed.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
+-page +10+${VMAR_BUTTON_FG} ../common_src/light/menu_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/menu-pressed.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/stick-pressed.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/stick_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/stick-pressed.png
 
-#convert \
-#-page +0+0 src/title_active.png \
-#-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
-#-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
-#-define png:color-type=6 -background none -layers merge +repage temp/shade-pressed.png
+convert \
+-page +0+0 src/title_active.png \
+-page +${HMAR_BUTTON_BG}+${VMAR_BUTTON_BG} src/title_button_pressed_active.png \
+-page +${HMAR_BUTTON_FG}+${VMAR_BUTTON_FG} ../common_src/light/shade_button_active.png \
+-define png:color-type=6 -background none -layers merge +repage temp/shade-pressed.png
 
 # Top right corner
 cp src/top_right_active.png temp/top-right-active.png

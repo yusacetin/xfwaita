@@ -1,25 +1,45 @@
 install_dark_slim(){
-    cd dark_slim
-    ./install.sh
-    cd ..
+    if [ -d "dark_slim" ]
+    then
+        cd dark_slim
+        ./install.sh
+        cd ..
+    else
+        echo "Failed to install dark_slim. Make sure you are in the correct directory."
+    fi
 }
 
 install_dark_large(){
-    cd dark_large
-    ./install.sh
-    cd ..
+    if [ -d "dark_large" ]
+    then
+        cd dark_large
+        ./install.sh
+        cd ..
+    else
+        echo "Failed to install dark_large. Make sure you are in the correct directory."
+    fi
 }
 
 install_light_slim(){
-    cd light_slim
-    ./install.sh
-    cd ..
+    if [ -d "light_slim" ]
+    then
+        cd light_slim
+        ./install.sh
+        cd ..
+    else
+        echo "Failed to install light_slim. Make sure you are in the correct directory."
+    fi
 }
 
 install_light_large(){
-    cd light_large
-    ./install.sh
-    cd ..
+    if [ -d "light_large" ]
+    then
+        cd light_large
+        ./install.sh
+        cd ..
+    else
+        echo "Failed to install light_large. Make sure you are in the correct directory."
+    fi
 }
 
 install_all(){
