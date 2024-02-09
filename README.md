@@ -2,11 +2,9 @@
 
 This is an Adwaita "port" for XFWM4 made with screenshots from Gnome applications. View on xfce-look.org: https://www.xfce-look.org/p/2031526/
 
-The light variants are incomplete. They're missing the menu, stick, and hide buttons and title button placements are slightly off.
-
 ### Screenshot
 
-![Xfwaita-dark](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot_2.png)
+![Xfwaita-dark-large](https://yusacetin.org/project-screenshots/xfwaita/xfwaita_screenshot_2.png)
 
 ### Build and Installation
 
