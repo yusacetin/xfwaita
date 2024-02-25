@@ -1,5 +1,10 @@
 /* XPM */
-static char * right_active_xpm[] = {
-"1 1 1 1",
-" 	c #101010",
-" "};
+static char *bottom_inactive_xpm[] = {
+"1 5 2 1",
+"a c #F6F5F4",
+"b c #000000",
+"a",
+"a",
+"a",
+"a",
+"b"};

@@ -53,6 +53,8 @@ build_all(){
     build_light_large
 }
 
+python generate_borders.py
+
 if [ $# -eq 0 ]
 then
     echo "Building all..."

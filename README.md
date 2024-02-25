@@ -10,11 +10,15 @@ This is an Adwaita "port" for XFWM4 made with screenshots from Gnome application
 
 The build files are already included so you can directly install them using `install.sh`. You can install only a specific variant using `install.sh [variant name]`. Variant names are "dark_slim", "dark_large", "light_slim", and "light_large".
 
-Building requires ImageMagick and Python. Run `build.sh` in the root directory to generate the build files followed by `install.sh` to copy them to your local themes folder, then select one of the variants from XFCE window manager settings under the style tab. You can also do `build.sh [variant name]` to build only a specific variant.
+Building requires ImageMagick and Python with PIL. Run `build.sh` in the root directory to generate the build files followed by `install.sh` to copy them to your local themes folder, then select one of the variants from XFCE window manager settings under the style tab. You can also do `build.sh [variant name]` to build only a specific variant.
 
 ### Uninstallation
 
 Run `uninstall.sh` in the project directory to uninstall all variants or run `uninstall.sh [variant name]` to uninstall a specific variant. Don't forget to select a different theme from settings before you log out.
+
+### Remove border padding
+
+I added border padding in the new version because it was difficult to resize windows. To get the old version, open generate_borders.py and set DARK_BORDER_WIDTH and LIGHT_BORDER_WIDTH to 1 and then build and install.
 
 ### Off-centered title workaround
 

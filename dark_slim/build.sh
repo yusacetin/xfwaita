@@ -187,6 +187,26 @@ cp src/top_right_inactive.png temp/top-right-inactive.png
 convert -define png:color-type=6 src/top_right_active.png -flop temp/top-left-active.png
 convert -define png:color-type=6 src/top_right_inactive.png -flop temp/top-left-inactive.png
 
+# Bottom window border
+cp ../common_src/dark/bottom_active.png temp/bottom-active.png
+cp ../common_src/dark/bottom_inactive.png temp/bottom-inactive.png
+
+# Right window border
+cp ../common_src/dark/right_active.png temp/right-active.png
+cp ../common_src/dark/right_inactive.png temp/right-inactive.png
+
+# Left window border
+cp ../common_src/dark/left_active.png temp/left-active.png
+cp ../common_src/dark/left_inactive.png temp/left-inactive.png
+
+# Bottom right window border
+cp ../common_src/dark/bottom_right_active.png temp/bottom-right-active.png
+cp ../common_src/dark/bottom_right_inactive.png temp/bottom-right-inactive.png
+
+# Bottom left window border
+cp ../common_src/dark/bottom_left_active.png temp/bottom-left-active.png
+cp ../common_src/dark/bottom_left_inactive.png temp/bottom-left-inactive.png
+
 # Convert to xpm
 for filepath in temp/*.png; do
     inputname=${filepath##*/}
@@ -209,9 +229,6 @@ cp build/title-inactive.xpm build/title-5-inactive.xpm
 
 rm build/title-active.xpm
 rm build/title-inactive.xpm
-
-# Copy constants
-cp ../common_src/all/* build
 
 # Get rid of temp folder
 if [ -d ./temp ]; then rm -rf ./temp; fi;

@@ -52,10 +52,12 @@ def get_number_of_letters(img):
     number_of_colors = get_number_of_colors(img)
     log_val = math.log(number_of_colors, len(ALPHABET))
     number_of_letters = math.ceil(log_val)
+    if (number_of_letters == 0):
+        number_of_letters = 1 # logarithm of 1 at any base is zero which causes a problem when there's only one color in the image
     return number_of_letters
 
 def get_output_filename():
-    if (len(sys.argv) > 1):
+    if (len(sys.argv) > 2):
         return sys.argv[2]
     name = ""
     original_file_extension = os.path.splitext(sys.argv[1])[1]
