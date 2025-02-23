@@ -22,7 +22,7 @@ I added border padding in the new version because it was difficult to resize win
 
 ### Off-centered title workaround
 
-To work around the slightly off-centered window title, place an equal number of window buttons on the left and right sides of the title. For example, if you have the close, maximize, and hide buttons on the right side, you can put the menu, stick, and shade buttons to the left side from Xfce window manager settings. Or try a fork of XFWM4 that supports full-width title centering.
+To work around the slightly off-centered window title, place an equal number of window buttons on the left and right sides of the title. For example, if you have the close, maximize, and hide buttons on the right side, you can put the menu, stick, and shade buttons to the left side from Xfce window manager settings. Or try a fork of Xfwm4 that supports full-width title centering.
 
 ### License
 
